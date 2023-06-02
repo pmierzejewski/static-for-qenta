@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #5348b8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      .cancel-circle {
+        width: 80vmin;
+        height: 80vmin;
+        max-width: 200px;
+        max-height: 200px;
+        background-color: #fcb614;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .cancel {
+        fill: none;
+        stroke: white;
+        stroke-width: 4;
+        width: 90%;
+        height: 90%;
+      }
+
+      .cancel-text {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Helvetica', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cancel-circle">
+      <svg
+        class="cancel"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50">
+        <line x1="15" y1="25" x2="35" y2="25" />
+      </svg>
+    </div>
+    <div class="cancel-text">Canceled</div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #5348b8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      .checkmark-circle {
+        width: 80vmin;
+        height: 80vmin;
+        max-width: 200px;
+        max-height: 200px;
+        background-color: #529e28;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .checkmark {
+        fill: none;
+        stroke: white;
+        stroke-width: 4;
+        width: 90%;
+        height: 90%;
+      }
+
+      .success-text {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Helvetica', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="checkmark-circle">
+      <svg
+        class="checkmark"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50">
+        <polyline points="12.5 25 22.5 37.5 37.5 15" />
+      </svg>
+    </div>
+    <div class="success-text">Success!</div>
+  </body>
+</html>

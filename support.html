@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #5348b8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      .help-circle {
+        width: 80vmin;
+        height: 80vmin;
+        max-width: 200px;
+        max-height: 200px;
+        background-color: #fcb614;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .help {
+        fill: white;
+        stroke: white;
+        stroke-width: 1;
+        font-size: 60px;
+        font-family: 'Helvetica', Arial, sans-serif;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+
+      .help-text {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Helvetica', sans-serif;
+      }
+
+      .contact-text {
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Helvetica', sans-serif;
+        margin-top: 10px;
+      }
+
+      .contact-text a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .contact-text a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="help-circle">
+      <svg
+        class="help"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100">
+        <text x="50%" y="50%" text-anchor="middle" font-size="60">?</text>
+      </svg>
+    </div>
+    <div class="help-text">Need help?</div>
+    <div class="contact-text">
+      Please contact us at
+      <a href="mailto:appsupport@qenta.com">appsupport@qenta.com</a>
+    </div>
+  </body>
+</html>
